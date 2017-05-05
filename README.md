@@ -7,10 +7,13 @@ Clone this repository
 $ git clone git@github.com:guilherme-toti/simple-node-api.git
 ```
 
-Set environment variables
+Set database connection string as environment variable
 ```sh
 $ export CONNECTION_STRING=mongodb://user:pass@server:port/database
 ```
+
+> You can create a free MongoDB database at: https://mlab.com/
+
 
 Install dependences
 ```sh
